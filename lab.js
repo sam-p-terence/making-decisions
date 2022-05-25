@@ -101,6 +101,10 @@ console.log("hello")
 
 //CODE HERE
 
+for (let x = 1; x < 11; x++) {
+  console.log(x)
+}
+
 ////////// PROBLEM 7 //////////
 
 /*
@@ -109,6 +113,9 @@ console.log("hello")
 
 //CODE HERE
 
+for (let x = 10; x > 0; x--) {
+  console.log(x)
+}
 
 ////////// PROBLEM 8 //////////
 
@@ -120,6 +127,12 @@ let passingScore = 7;
 */
 
 //CODE HERE
+
+
+while (score < passingScore) {
+  console.log('Your score is not high enough')
+  score++
+}
 
 ////////// INTERMEDIATE PROBLEMS //////////
 
