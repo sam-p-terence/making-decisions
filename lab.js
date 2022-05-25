@@ -75,7 +75,11 @@ if (temperature > 80 && rain ) {
   console.log("Wear a jacket and bring an umbrella")
 }
 
-
+else if (temperature === 50 && sun) {
+   console.log("You're a San Franciscan")
+ } else if (temperature === 100 && sun) {
+   console.log("You're a Houstonian")
+ }
 
 
 ////////// PROBLEM 5 //////////
@@ -85,6 +89,9 @@ if (temperature > 80 && rain ) {
 */
 
 //CODE HERE
+
+for (let x = 0; x < 10; x++)
+console.log("hello")
 
 ////////// PROBLEM 6 //////////
 
